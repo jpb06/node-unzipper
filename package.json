@@ -1,0 +1,25 @@
+{
+  "name": "node-unzipper",
+  "version": "0.0.3",
+  "description": "A simple module to unzip an archive",
+  "main": "js/index.js",
+  "types": "typings/index.d.ts",
+  "author": {
+    "name": "jpb06"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/node": "^8.0.14",
+    "@types/yauzl": "^2.9.1",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "yauzl": "^2.10.0"
+  }
+}
